@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	alert(1==2) // false
+	alert(1==1) // true
+	alert("one" == "two") // false
+	alert("one" == "one") // true 
+
+	alert(1=='1'); //true
+	alert(1==='1'); //false ===는 엄격한 동등연산자(일치연산자)
+    
+    alert(null == undefined); // true
+    alert(null === undefined); // false
+     
+    alert(true==1); //true true/false는 불리언 0 1 2 3은 넘버 "a"같은건 문자열
+    alert(true===1); //false
+    alert(true == '1'); //true
+    alert(true ==='1'); //false
+
+    alert(0 === -0); //true
+    alert(NaN === NaN); //false  0을0으로 나눴을때등등 성립하지 않는수(계산할수없음)
+
+    alert(1!=2); //true
+    alert(1!=1); //false
+    alert("one"!="two"); //true
+    alert("one"!="one"); //false         //!==는 정확하게 같지 않다는 의미
+
+    alert(10>20); //false
+    alert(10>1); //true
+    alert(10>10); //false
+
+    alert(10>=20); //false
+    alert(10>=1); //true
+    alert(10>=10); //true
+
+
+</script>
+</body>
+</html>
