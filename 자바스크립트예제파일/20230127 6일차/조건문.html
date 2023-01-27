@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	if(true)     // 실행됨(true)
+	{
+		alert('result:true');
+	}
+	if(false)    // 무시됨(false)
+	{
+        alert('result:true');
+	} 
+
+	if(true) //1,2,3,4,5출력
+	{
+		alert(1);
+		alert(2);
+		alert(3);
+		alert(4);
+	}
+	alert(5);
+
+    if(false) //5만 출력
+	{
+		alert(1);
+		alert(2);
+		alert(3);
+		alert(4);
+	}
+	alert(5);
+
+	if(true) // true부분 실행
+	{
+		alert(1);
+	}
+	else
+	{
+		alert(2);
+	}
+
+	if(false) // else 부분 실행
+	{
+		alert(1);
+	}
+	else
+	{
+		alert(2);
+	}
+    
+
+    if(false){    // 숫자 2만 출력 else는 앞에꺼가 false여야 동작하기때문이다.
+    	alert(1);
+    }
+    else if(true)
+    {
+        alert(2);
+    }
+    else if(true)
+    {
+    	alert(3);
+    }
+    else
+    {
+    	alert(4);
+    }
+
+    if(false)      // 3 출력
+    {
+    	alert(1);
+    }
+    else if(false)
+    {
+        alert(2);
+    }
+    else if(true)
+    {
+    	alert(3);
+    }
+    else
+    {
+    	alert(4);
+    }
+    
+    
+
+
+</script>
+</body>
+</html>
