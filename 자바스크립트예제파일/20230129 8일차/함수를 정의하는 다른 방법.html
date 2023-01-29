@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	var numbering = function ()  // 함수의 정의부분이 numbering이라는 변수에 대입. 
+	{
+    i = 0;
+    while(i < 10){
+        document.write(i);
+        i += 1;
+    }   
+    }
+numbering();
+
+
+(function () // 정의된 함수를 괄호로 묶고 그리고 그 함수를 호출하는 기호()를 해주게 되면 함수를 정의하는 것과 그 함수를 바로 호출하는 것이 한 번에 되있음.(익명함수,1회성 출현)
+	{
+    i = 0;
+    while(i < 10){
+        document.write(i);
+        i += 1;
+    }   
+    })();
+
+</script>
+</body>
+</html>
