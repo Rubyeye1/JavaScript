@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	// 함수의 출력
+	function get_member1()   
+	{
+        return 'egoing';
+    }
+ 
+    function get_member2()
+    {
+        return 'k8805';
+    }
+
+    function get_member()
+    {                     //egoing 호출하고 종료됬기 때문에 egoing만 출력됨.
+        return 'egoing';
+        return 'k8805';
+        return 'sorialgi';
+    }
+    alert(get_member());
+    alert(get_member1());
+    alert(get_member2());
+
+    // 함수의 입력
+
+    function get_argument(arg) // arg가 매개변수(파라미터)
+    {
+        return arg*1000;
+    }
+ 
+    alert(get_argument(1)); // 1,2는 인자
+    alert(get_argument(2));
+
+
+    function get_arguments(arg1, arg2) // 매개변수가 2개. 복수로 입력값을 받을 수 있지만 return값은 1개라는 특징.
+    {
+    return arg1 + arg2
+    }
+ 
+    alert(get_arguments(10, 20));
+    alert(get_arguments(20, 30));
+
+</script>
+</body>
+</html>
