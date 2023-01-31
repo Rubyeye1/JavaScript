@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	var arr = ['a', 'b', 'c'];
+	for(var i=0; i<arr.length;i++)
+	{
+		console.log(arr[i]); // a b c 출력
+	}
+
+	var grades = {'egoing' : 10, 'k8805' : 6, 'sorialgi' : 80}
+	for (key in grades){     // 반복문을 실행하는 동안 key값이 담김.(egoing k8805 sorialgi 순서)
+		document.write("key : " +key+ " value : "+grades[key]+ "<br />");
+	}
+
+	for (var name in grades){     // 반복문을 실행하는 동안 key값이 담김.(egoing k8805 sorialgi 순서)
+		document.write("<li>key : " +name+ " value : "+grades[name]+ "<li>"); // 이렇게 name으로 변수이름 변경 가능.
+	}
+	// li로 목록을 만들어 주는 것.(html을 제어)
+
+
+
+</script>
+</body>
+</html>
